@@ -31,7 +31,7 @@ body {
     font-family: var(--font-body);
     color: var(--text-dark);
     /* Background gambar awan pink */
-    background-image: url('/assets/images/image_75094b.jpg'); 
+    background-image: url('./assets/images/image_75094b.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
