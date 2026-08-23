@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Fredoka untuk heading playful, Quicksand untuk text yang clean & warm -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Container untuk partikel bunga -->
+    <div id="flower-particles"></div>
+<!-- Background Audio -->
+    <audio id="bg-music" loop>
+        <source src="assets/music/birthday-music.mp3"type="audio/mpeg">
+    </audio>
+    <!-- SECTION 01: OPENING -->
+    <section class="section sec-opening" id="opening">
+        <div class="floating-shapes">
+            <div class="shape circle shape-1"></div>
+            <div class="shape star shape-2">✨</div>
+            <div class="shape circle shape-3"></div>
+            <div class="shape star shape-4">✨</div>
+        </div>
+        <div class="content text-center reveal-on-scroll">
+            <h2 class="subtitle">HEY BB, DR AFTUT JIR</h2>
+            <p class="description">Today is your special day.</p>
+            <h1 class="title main-title">HAPPY<br>BIRTHDAY!</h1>
+            <h1 class="title name-highlight">MANTUT</h1>
+            <p class="age-badge">Turning 20 Today!</p>
+            <button id="btn-start" class="btn primary-btn">LET'S GO ✨</button>
+        </div>
+    </section>
+
+    <!-- SECTION 02: MEMORY 01 -->
+    <section class="section sec-memory-1" id="memory-1">
+        <div class="memory-container layout-left">
+            <div class="memory-image-wrapper reveal-on-scroll tilt-right">
+                <img src="/assets/images/memory-1.jpg" alt="Memory 1" class="scrapbook-img">
+                <div class="doodle-star doodle-top-right">✨</div>
+            </div>
+            <div class="memory-text reveal-on-scroll delay-1">
+                <span class="memory-tag">MEMORY #01</span>
+                <p class="memory-caption">AWOWKWOWOK, ini amanda kecil anjay</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 03: MEMORY 02 -->
+    <section class="section sec-memory-2" id="memory-2">
+        <div class="memory-container layout-right">
+            <div class="memory-text reveal-on-scroll">
+                <span class="memory-tag">MEMORY #02</span>
+                <p class="memory-caption">ini foto terlucu kita n then ini after dinner :p 
+            </div>
+            <div class="memory-image-wrapper reveal-on-scroll tilt-left delay-1">
+                <img src="/assets/images/memory-2.jpg" alt="Memory 2" class="scrapbook-img">
+                <div class="doodle-heart doodle-bottom-left">❤️</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 04: MEMORY 03 -->
+    <section class="section sec-memory-3" id="memory-3">
+        <div class="memory-container layout-left">
+            <div class="memory-image-wrapper reveal-on-scroll tilt-right">
+                <img src="/assets/images/memory-3.jpg" alt="Memory 3" class="scrapbook-img">
+                <div class="doodle-star doodle-top-left">🌟</div>
+            </div>
+            <div class="memory-text reveal-on-scroll delay-1">
+                <span class="memory-tag">MEMORY #03</span>
+                <p class="memory-caption">dann ini foto terkereen kita deh whahdwhdah
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 05: THE SPECIAL DAY (TRANSITION) -->
+    <section class="section sec-transition" id="transition">
+        <div class="content text-center">
+            <h2 class="reveal-on-scroll step-text">Three little memories...</h2>
+            <h2 class="reveal-on-scroll step-text delay-1">...for one very special person.</h2>
+            <h1 class="reveal-on-scroll huge-text delay-2">TODAY IS YOUR DAY.</h1>
+        </div>
+    </section>
+
+    <!-- SECTION 06: PERSONAL PHOTO -->
+    <section class="section sec-main-photo" id="main-photo">
+        <div class="content text-center">
+            <h2 class="highlight-title reveal-on-scroll">THIS IS YOU ✨</h2>
+            <div class="main-photo-wrapper reveal-on-scroll scale-in">
+                <div class="glow-backdrop"></div>
+                <img src="/assets/images/main-photo.jpg" alt="Main Photo" class="special-img">
+                <!-- Decorative overlays -->
+                <div class="deco flower deco-1">🌸</div>
+                <div class="deco star deco-2">⭐</div>
+                <div class="deco sparkle deco-3">✨</div>
+            </div>
+            <h1 class="happy-bday-text reveal-on-scroll delay-1">HAPPY BIRTHDAY,<br>Amanda Aqilah Mahel!</h1>
+        </div>
+    </section>
+
+    <!-- SECTION 07: BIRTHDAY MESSAGE -->
+    <section class="section sec-message" id="message">
+        <div class="message-container">
+            <p class="msg-line reveal-on-scroll">Another year.</p>
+            <p class="msg-line reveal-on-scroll">Another collection of memories.</p>
+            <p class="msg-line reveal-on-scroll">And another reason to celebrate you.</p>
+            
+            <div class="personal-message-box reveal-on-scroll delay-1">
+                <p>
+                    i want tell u something, happy birthdayyy sayanggg 😛
+selamat ulang tahun yaa baby. semoga di umur kamu yang sekarang, makin banyak hal baik yang datang ke kamu, makin banyak alasan buat senyum, dan semoga semua yang selama ini kamu usahain satu-satu bisa tercapai. i hope this year will be kinder to you, membawa banyak kebahagiaan, pengalaman baru, dan hal-hal baik yang kamu deserve.
+aku bersyukur banget bisa kenal sama kamu, dari sekian banyak orang yang bisa datang dan pergi, aku seneng banget bisa punya kamu dan bisa jadi bagian dari hidup kamu sampai sekarang. mungkin aku masih banyak kurangnya, tapi aku selalu bersyukur karena kamuu masih mau nemenin aku, masih mau sabar sama aku, dan masih jadi orang yang berarti banget buat aku.
+baby, jangan pernah terlalu keras sama diri kamu sendiri yaa. kalau ada sesuatu yang belum sesuai sama yang kamu mau, gapapa, pelan-pelan aja. kamu udah sejauh ini dan aku bangga sama kamu. i hope you always remember that you deserve good things, good people, and a life that makes you genuinely happy.
+makasih buat semua hal kecil yang kamu lakuin, bahkan yang mungkin menurut kamu biasa aja tapi buat aku berarti. makasih udah hadir, udah nemenin aku, udah mau dengerin aku, dan udah jadi diri kamu sendiri. i appreciate you more than you know.
+semoga di umur yang baru ini kita punya lebih banyak cerita, lebih banyak ketawa, lebih banyak momen random, dan lebih banyak hal yang nanti bisa kita inget bareng. semoga aku masih bisa ada di banyak momen penting kamu, termasuk di ulang tahun-ulang tahun kamu berikutnya.
+once again, happy birthday baby 🥳🤍 semoga semua doa baik yang kamu panjatkan bisa satu-satu dikabulkan. enjoy your day, have fun, and please be happy today karena hari ini adalah hari kamu.
+i love you, babyyy!!! 
+happy birthdayyy ❤️
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 08: CELEBRATION -->
+    <section class="section sec-celebration" id="celebration">
+        <div id="confetti-container"></div>
+        <div class="content text-center">
+            <h2 class="reveal-on-scroll text-so">SO...</h2>
+            <h1 class="reveal-on-scroll text-ready delay-1">KM SIAPP BABEEEE?
+            
+            <div class="reveal-on-scroll delay-2" style="margin-top: 40px;" id="sparkle-btn-wrapper">
+                <button id="btn-sparkle" class="btn magic-btn">MAKE IT SPARKLE ✨</button>
+            </div>
+
+            <div id="final-wish" class="hidden-wish">
+                <!-- Final Photo 1:1 -->
+                <div class="final-photo-wrapper">
+                    <img src="/assets/images/final-photo.jpg" alt="Surprise Final Photo" class="final-photo">
+                </div>
+                
+                <h1 class="final-title">HAPPY BIRTHDAY!</h1>
+                <h1 class="final-name">Amanda Aqilah Mahel</h1>
+                <p class="final-text">Hope your day is as wonderful as you are.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
